@@ -1,0 +1,40 @@
+<html> 
+  <link rel="stylesheet" href="base.css"/>
+  <link rel="stylesheet" href="style.css"/>
+  <title>Threads Fan Club</title>
+  <head>
+  </head>
+  <body onclick="removetext()">
+  <div class="flex">
+  <h1 class="scrolling-header">Threads Fan Club</h1>
+  <img class="threadsgif"src="threadsgif.gif" alt broken gif/>
+  </div>
+    <div class="Welcome" id="Welcome">
+     <div class="welcometext">
+     <h2>WELCOME . . .</h2>
+      </div>
+     <div class="clickanywhere">
+     <h3>Click Anywhere To Enter . . . </h3>
+     </div>
+    </div>
+   </div>
+   <div class="RecentPosts"id="RecentPosts">
+    <h1 class="rp-opening-text">Recent Posts</h1>
+    <video width="320" height="240" controls>
+      <source src="Comp_1.mp4" type="video/mp4">
+      <source src="Comp_1.ogg" type="video/ogg">
+    </video>
+    </div>
+  <script>
+    function removetext() {
+      var Welcome = document.getElementById("Welcome");
+      var RecentPosts = document.getElementById("RecentPosts")
+      Welcome.style.animation = "fadeOut 3s";
+      RecentPosts.style.animation = "fadeIn 3s";
+      setTimeout(function() {
+      Welcome.style.display = "none";
+      }, 3000);
+    }
+  </script>
+  </body>
+</html>
