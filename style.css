@@ -71,8 +71,9 @@ to{
     src: url(mingliu.TTF);
     font-weight: normal;
 }
-.RecentPosts{
-    opacity:0;
+.RecentPosts {
+    display:none;
+    animation: fadeIn 2s; 
     position:absolute;
 }
 html, body {
