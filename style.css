@@ -75,8 +75,21 @@ to{
     position:absolute;
     display: none;
 }
+.rp-opening-text {
+    white-space: nowrap;
+    position:absolute;
+    top:-10%;
+    left:100%;
+}
+
+.img1 {
+    transform:translate(50px, 100px);
+}
+.funnyvideo{
+    transform: translate(50px,100px)
+}
 html, body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body{
     font-family: Meiryo, monospace;
