@@ -72,7 +72,7 @@ to{
     font-weight: normal;
 }
 .RecentPosts {
-    display:none;
+    display:block;
     animation: fadeIn 2s; 
     position:absolute;
 }
