@@ -42,7 +42,7 @@ to{
     animation:blinker 3s ease-in infinite;
     background-color: black;
     border:none;
-    color: #003B00;
+    color: #00FF41;
 }
 .flex{
     border-top: 8px solid #00FF41;
@@ -55,13 +55,12 @@ to{
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);
-    animation: fadeIn 5s;
 }
 .threadsgif{
     position:absolute;
     height:75px;
     width:75px;
-    margin: 0 auto;
+    margin: 0 ease auto;
 }
 .scrolling-header {
     margin-left: 100px;
@@ -72,15 +71,14 @@ to{
     font-weight: normal;
 }
 .RecentPosts {
-    display:block;
     animation: fadeIn 2s; 
     position:absolute;
+    display: none;
 }
 html, body {
     overflow: hidden;
 }
 body{
-    position:relative;
     font-family: Meiryo, monospace;
     color: #16F529;
     background-color: black;
