@@ -73,6 +73,8 @@ to{
 .RecentPosts {
     animation: fadeIn 2s;
     display: none;
+}
+RecentPosts {
     -ms-flex-direction: center;
     flex-direction:center;
     -ms-flex-flow: row wrap;
