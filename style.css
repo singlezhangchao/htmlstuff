@@ -52,7 +52,7 @@ to{
     margin:0 auto;
 }
 .threadsgif{
-    animation: fadeIn 1s;
+    animation: fadeIn 0.5s;
     position:absolute;
     height:75px;
     width:75px;
