@@ -74,6 +74,7 @@ to{
     animation: fadeIn 2s; 
     position:absolute;
     display: none;
+    flex-flow: row wrap
 }
 .rp-opening-text {
     white-space: nowrap;
