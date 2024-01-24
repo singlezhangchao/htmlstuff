@@ -70,20 +70,12 @@ to{
     src: url(mingliu.TTF);
     font-weight: normal;
 }
-.RecentPosts {
-    animation: fadeIn 3s;
-    display: none;
-    position:absolute;     
-}
-.Image {
-    animation: fadeIn 3s;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    width: 40%;
-};
 
+    .Image {
+        display:flex;
+        margin-top: 5%;
+        justify-content:center;
+      }
 
 .rp-opening-text {
     white-space: nowrap;
