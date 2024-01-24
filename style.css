@@ -73,8 +73,10 @@ to{
 .RecentPosts {
     animation: fadeIn 2s;
     display: none;
-    -ms-flex-align: center;
-    flex-flow: row wrap
+    -ms-flex-direction: center;
+    flex-direction:center;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
 }
 .rp-opening-text {
     white-space: nowrap;
