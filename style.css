@@ -71,9 +71,9 @@ to{
     font-weight: normal;
 }
 .RecentPosts {
-    animation: fadeIn 2s; 
-    position:absolute;
+    animation: fadeIn 2s;
     display: none;
+    -ms-flex-align: center;
     flex-flow: row wrap
 }
 .rp-opening-text {
@@ -83,12 +83,6 @@ to{
     left:100%;
 }
 
-.img1 {
-    transform:translate(50px, 100px);
-}
-.funnyvideo{
-    transform: translate(50px,100px)
-}
 html, body {
     overflow-x: hidden;
 }
