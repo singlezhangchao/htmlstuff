@@ -52,10 +52,11 @@ to{
     margin:0 auto;
 }
 .threadsgif{
-    animation: fadeIn 0.5s;
+    animation: fadeIn 1s;
     position:absolute;
     height:75px;
     width:75px;
+    margin: 0 ease auto;
 }
 .scrolling-header {
     margin-left: 100px;
@@ -67,7 +68,7 @@ to{
 }
 
     .Image {
-        animation: fadeIn 5s;
+        animation: fadein 3s;
         display:flex;
         margin-top: 5%;
         justify-content:center;
