@@ -39,12 +39,12 @@ to{
     .clickanywhere{
     transform: translateX(-10px);
     transform: translateY(-20px);
-    animation:blinker 3s ease-in infinite;
+    animation:blinker 2s ease-in infinite;
     background-color: black;
     border:none;
     color: #00FF41;
 }
-.flex{
+.title{
     border-top: 8px solid #00FF41;
     border-bottom: 8px solid #00FF41;
     display:flex;
@@ -71,13 +71,20 @@ to{
     font-weight: normal;
 }
 .RecentPosts {
-    animation: fadeIn 2s;
+    animation: fadeIn 3s;
     display: none;
     position:absolute;     
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
 }
+.Image {
+    animation: fadeIn 3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 40%;
+};
+
+
 .rp-opening-text {
     white-space: nowrap;
     position:absolute;
